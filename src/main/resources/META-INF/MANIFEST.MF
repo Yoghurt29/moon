@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.8.0_144-b01 (Oracle Corporation)
+Implementation-Version: 1.11-SNAPSHOT
+application_title: HEADING® Qianfan™ Marketing Management System
+
