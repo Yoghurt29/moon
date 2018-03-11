@@ -29,6 +29,6 @@ public class DatabaseInstall {
     }
     System.out.println(sql);
     jdbcTemplate.batchUpdate(sql);
-    System.out.println("init database done");
-  }*/
+    System.out.println("init database done");*/
+  }
 }
