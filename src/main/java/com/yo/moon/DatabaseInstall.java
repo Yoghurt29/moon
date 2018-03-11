@@ -16,7 +16,7 @@ public class DatabaseInstall {
   JdbcTemplate jdbcTemplate;
   private static String SCHEMA_SQL = "/META-INF/rdb-setup/script/table/schema.sql";
 
-  @PostConstruct
+  //@PostConstruct
   public void initDatabase() throws IOException, InterruptedException {
     // TODO 使用ant 或者mybatis脚本初始化
     System.out.println("init database...");
