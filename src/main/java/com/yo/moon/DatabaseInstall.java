@@ -19,7 +19,7 @@ public class DatabaseInstall {
   //@PostConstruct
   public void initDatabase() throws IOException, InterruptedException {
     // TODO 使用ant 或者mybatis脚本初始化
-    System.out.println("init database...");
+    /*System.out.println("init database...");
     InputStream script = getClass().getResourceAsStream(SCHEMA_SQL);
     String sql = null;
     try {
@@ -30,5 +30,5 @@ public class DatabaseInstall {
     System.out.println(sql);
     jdbcTemplate.batchUpdate(sql);
     System.out.println("init database done");
-  }
+  }*/
 }
